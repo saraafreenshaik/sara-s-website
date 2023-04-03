@@ -6,6 +6,7 @@ body{
     
     
 }
+
 a{
     margin: 10px;
     text-decoration: solid;
@@ -13,12 +14,14 @@ a{
 
     
 }
+
 a:hover{
     display: flex;
     text-decoration: underline;
     text-align: right 10px;
     color: #ffffff;
 }
+
 ul.header-nav{
     font-size: large;
     position: absolute;
@@ -27,6 +30,7 @@ ul.header-nav{
    right: 16px;
    
  }
+
  section{
     display: flex;
     flex-direction: column;
@@ -34,47 +38,57 @@ ul.header-nav{
     
     
 }
+
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3.9rem;
 }
+
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.5rem;
 }
+
 h3{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3rem;
 }
+
 h4{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.8rem;
 }
+
 .p1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2.0rem;
     line-height: 3rem;
 
 }
+
 .p2{
     font-family:'Times New Roman', Times, serif;
     font-size: 1rem;
     line-height: 1.0rem;
 }
+
 .p3{
     font-family:'Times New Roman', Times, serif;
     font-size: 1rem;
     line-height: 1.5rem;
 }
+
 .p4{
     font-family:'Times New Roman', Times, serif;
     font-size:1rem;
     line-height: 1.5rem;
 }
+
 .style-cards{
     font-size: 1.5rem;
     line-height: 1.5em;
 }
+
 .card-1,
 .card-2,
 .card-3{
@@ -83,12 +97,14 @@ h4{
     text-align: center;
     background-color: rgb(249, 252, 254);
 }
+
 .card-1{
     position: relative;
     text-align: center;
     align-items: center;
     padding: 25px 25px 25px;
  }
+
 .card-2{
         position: relative;
         display: inline-grid;
@@ -96,12 +112,14 @@ h4{
         align-items: center;
         padding: 25px 45px 50px;
 }
+
 .card-3{
     position: relative;
     text-align: center;
     align-items: center;
     padding: 25px 45px 50px;
 }
+
 .button {
     border: none;
     background-color: #b249e7;
@@ -111,6 +129,7 @@ h4{
     transition-duration: 0.10s;
     cursor: pointer;
 }
+
 .button1 {
     background-color: rgb(102, 18, 132); 
     color: rgb(253, 248, 248); 
@@ -120,12 +139,14 @@ h4{
     background-color: #67126a;
     color: white;
   }
+
 .footer{
     max-width: 100%;
     background-color: #842c87;
     margin: 1rem auto;
     overflow: auto;
 }
+
 .footer a{
     color: #f0f4f3;
     font-size: 0.9rem;
@@ -136,11 +157,15 @@ h4{
    display: flex;
    float: right;
 }
+
 .footer p{
     color: #f0f4f3;
     margin-bottom: 2.5rem;
     display: inline-block
 }
+
+
+
 /*{
     text-align: center;
 .button1 {
