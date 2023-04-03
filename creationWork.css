@@ -116,6 +116,7 @@ h3{
     padding: 25px 45px 50px;
     background-color: rgb(236, 85, 180);
 }
+
 .job{
     padding-left: 100px;
 }
@@ -329,6 +330,8 @@ h3{
     margin-bottom: 2.5rem;
     display: inline-block
 }
+
+
 /*
 .tablereservation{
     font-size: 2.6rem;
@@ -431,10 +434,11 @@ h3{
     text-align: center;
     background-color: rgb(249, 252, 254);
 }
-*/
 
-/*.button {background-color: #b249e7;}
+
+
 .button {
+    background-color: #b249e7;
     border: none;
     padding: 20px 35px;
     text-align: center;
