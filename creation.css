@@ -18,10 +18,13 @@ a:hover{
     text-decoration: underline;
     text-align: right 10px;
     color: #ffffff;
+}
+
+
     /*width: 100px;
     height: 60px;
-}*/
-}
+*/
+
 nav{
     display: flex;
     width: 100px;
@@ -169,6 +172,8 @@ img {
     margin-bottom: 2.5rem;
     display: inline-block
 }
+
+
 /*{
     text-align: center;
 
