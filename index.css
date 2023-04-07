@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    background-color: rgb(148, 13, 72);
+    
+    
+}
+a{
+    margin: 10px;
+    text-decoration: solid;
+    color: rgb(253, 254, 254);
+
+    
+}
+a:hover{
+    display: flex;
+    text-decoration: underline;
+    text-align: right 10px;
+    color: #ffffff;
+    /*width: 100px;
+    height: 60px;
+}*/
+}
+nav{
+    display: flex;
+    width: 100px;
+    height: 60px;
+}
+
+ul.header-nav{
+   font-size: large;
+   position: absolute;
+   display: flex;
+  top: 8px;
+  right: 16px;
+  
+}
+#header-nav1{
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    border-radius: 50%;
+    
+}
+section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4.5rem;
+    line-height: 4rem;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    line-height: 3rem;
+}
+.style-cards h4{
+    font-size: 2.9rem;
+    line-height: 3rem;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4{
+    border-top: 8px dotted rgb(197, 26, 106);
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(249, 252, 254);
+    border-radius: 25px;
+
+}
+.card-1{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding: 15p 15px 15px; 
+    
+
+}
+.desc-1{
+    padding-left: 100px;
+    
+}
+.card-2{
+    position: relative;
+    display: inline-grid;
+    text-align: center;
+    align-items: center;
+    padding: 25px 45px 50px;
+    
+}
+.desc-2{
+    padding-left: 100px;
+}
+
+img { 
+    padding: 80px; 
+    margin: 50px; 
+    
+} 
+/*@-webkit-keyframes slide_animation{
+    0%{left: 0px;}
+    10%{left: 0px;}
+    20%{left: 120px;}
+    30%{left: 12px;}
+    40%{left: 240px;}
+    50%{left: 240px;}
+    60%{left: 12px;}
+    70%{left: 12px;}
+    80%{left: 0px;}
+    90%{left: 0px;}
+    100%{left: 0px;}
+}
+.desc-2{
+    padding-left: 100px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -wedkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+.image-slide{
+    position: relative;
+    float: left;
+
+}*/
+
+.style-cards h2{
+    font-size: 2.5rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+.style-cards h4{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.card-1 img{
+    align-items: center;
+    width: 150px;
+    height: 100px;
+}
+.card-3{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+.desc-3{
+    padding-left: 100px;
+}
+
+.card-2 img{
+    align-items: left;
+    justify-content: 1px dotted black;
+}.card-3 img{
+    align-items: right;
+}
+
+.button {
+    border: none;
+    background-color: #c3306d;
+    padding: 20px 35px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.10s;
+    cursor: pointer;
+}
+.button1 {
+    background-color: rgb(143, 8, 93); 
+    color: rgb(253, 248, 248); 
+  }
+  
+  .button1:hover {
+    background-color: #6b0335;
+    color: white;
+  }
+.footer{
+    max-width: 100%;
+    background-color: #9d034b;
+    margin: 1rem auto;
+    overflow: auto;
+}
+.footer a{
+    color: #f0f4f3;
+    font-size: 0.9rem;
+    align-self: safe;
+    font-size: large;
+    justify-items: space;
+   position: absolute;
+   display: flex;
+   float: right;
+}
+.footer p{
+    color: #f0f4f3;
+    margin-bottom: 2.5rem;
+    display: inline-block
+}
+/*{
+    text-align: center;
+
+    
+}*/
+
